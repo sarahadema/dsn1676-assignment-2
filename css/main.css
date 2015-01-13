@@ -41,7 +41,6 @@ img {
 
 	transition: all 6000ms linear;
 	transform-origin: center bottom;
-
 }
 
 .hand-minute {
@@ -65,12 +64,10 @@ img {
 
 .clock-face:target .hand-hour {
 	transform: rotate(360deg);
-
 }
 
 .clock-face:target .hand-minute {
 	transform: rotate(4320deg);
-
 }
 
 .forward {
