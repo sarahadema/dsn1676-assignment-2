@@ -6,6 +6,8 @@
 
 html {
   box-sizing: border-box;
+
+  text-align: center;
 }
 
 *, *:before, *:after {
@@ -27,8 +29,7 @@ img {
 	width: 300px;
 	height: 300px;
 	position: relative;
-	top: 200px;
-	left:500px;
+	margin: 0 auto;
 }
 
 .hand-hour {
@@ -73,6 +74,7 @@ img {
 }
 
 .forward {
+	margin: 25px;
 	border-radius: 50%;
 	width: 6em;
 	line-height: 6em;
@@ -81,12 +83,16 @@ img {
 	text-decoration: none;
 	color: #111;
 	background-color: green;
-	position: absolute;
-	top: 100px;
-	left:250px;
+
+	transition: background-color 250ms linear;
+}
+
+.forward:hover {
+	background-color: white;
 }
 
 .backward {
+	margin: 25px;
 	border-radius: 50%;
 	width: 6em;
 	line-height: 6em;
@@ -95,7 +101,10 @@ img {
 	text-decoration: none;
 	color: #111;
 	background-color: red;
-	position: absolute;
-	top: 100px;
-	right:250px;
+	
+	transition:background-color 250ms linear;
+}
+
+.backward:hover {
+	background-color: white;
 }
